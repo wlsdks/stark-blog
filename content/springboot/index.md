@@ -1,5 +1,5 @@
 ---
-emoji: 👩🏻‍💻
+emoji: 🐥
 title: 'SpringBoot'
 date: '2025-05-29'
 categories: featured-SpringBoot

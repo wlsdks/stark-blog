@@ -1,5 +1,5 @@
 ---
-emoji: 👩🏻‍💻
+emoji: 🐥
 title: '스프링부트 아키텍처'
 date: '2025-10-30'
 categories: featured-Architect

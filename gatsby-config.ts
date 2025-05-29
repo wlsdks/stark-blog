@@ -33,7 +33,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `G-XXXXXXXX`,
+        trackingId: `G-05TV19RJTP`,
         head: true,
       },
     },

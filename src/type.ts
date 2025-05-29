@@ -56,6 +56,7 @@ export type Social = {
   github: string;
   linkedIn: string;
   notion: string;
+  tistory?: string;
 };
 
 export type Post = {

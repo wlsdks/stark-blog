@@ -4,6 +4,19 @@ import path from 'path';
 
 import { AllMarkdownRemark } from './src/type';
 
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type SiteSiteMetadataAuthorSocial {
+      github: String
+      linkedIn: String
+      notion: String
+      tistory: String
+    }
+  `;
+  createTypes(typeDefs);
+};
+
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ getConfig, actions }) => {
   const output = getConfig().output || {};
 

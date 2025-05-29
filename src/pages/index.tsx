@@ -81,10 +81,10 @@ export const pageQuery = graphql`
             github
             linkedIn
             notion
+            tistory
           }
           dropdown {
             velog
-            tistory
           }
         }
         featured {

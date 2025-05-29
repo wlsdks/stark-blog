@@ -15,8 +15,10 @@ const FeaturedPostCard: React.FC<FeaturedPostCardProps> = ({ post }) => {
     <S.Wrapper>
       <S.PostCard key={id} to={slug}>
         {emoji && <S.Emoji>{emoji}</S.Emoji>}
-        <S.Title className='title'>{title}</S.Title>
-        <S.Date>{date}</S.Date>
+        <S.Content>
+          <S.Title className='title'>{title}</S.Title>
+          <S.Date>{date}</S.Date>
+        </S.Content>
       </S.PostCard>
     </S.Wrapper>
   );

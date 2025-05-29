@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `stark.com`,
+  title: `I'm Stark`,
   description: `개발자 Stark`,
   language: `ko`,
-  siteUrl: `https://stark.com/`,
+  siteUrl: `https://dev-stark.netlify.app/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -33,9 +33,9 @@ export default {
       github: `https://github.com/wlsdks`,
       linkedIn: `https://www.linkedin.com/in/writedev/`,
       notion: `https://www.notion.so/jinanwiki/WIKI-0e3baacbd4614f2182e9c7a0f464ccc1?pvs=4`,
+      tistory: 'https://curiousjinan.tistory.com/',
     },
     dropdown: {
-      tistory: 'https://curiousjinan.tistory.com/',
       velog: '',
     },
   },

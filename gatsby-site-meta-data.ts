@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `stark.com`,
+  description: `개발자 Stark`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://stark.com/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: `wlsdks/stark-blog`,
     },
   },
 
@@ -21,22 +21,22 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
-    stack: ['Frontend', 'React', 'Typescript'],
+    name: `최진안`,
+    nickname: `Stark`,
+    stack: ['아키텍처', 'Spring', '설계'],
     bio: {
-      email: `ljm991108@gmail.com`,
+      email: `dig04059@gmail.com`,
       residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      bachelorDegree: 'Electronic Convergence Engineering (2016.03-2022.02)',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/wlsdks`,
+      linkedIn: `https://www.linkedin.com/in/writedev/`,
+      notion: `https://www.notion.so/jinanwiki/WIKI-0e3baacbd4614f2182e9c7a0f464ccc1?pvs=4`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://curiousjinan.tistory.com/',
+      velog: '',
     },
   },
 
@@ -45,11 +45,11 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
+      title: '스프링',
       category: 'featured-category1',
     },
     {
-      title: 'category2',
+      title: '아키텍처',
       category: 'featured-category2',
     },
   ],
@@ -60,26 +60,42 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
+      date: '2024.06.10 - ING',
+      en: 'Hunet',
+      kr: '휴넷',
+      info: '러닝메이커 솔루션팀',
       link: '',
     },
     {
       category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
+      date: '2024.04.02 - 2024.05.31',
+      en: 'dk-techin',
+      kr: '디케이테크인',
+      info: '봇사업팀',
+      link: '',
+    },
+    {
+      category: 'Career',
+      date: '2022.04.18 - 2023.10.31',
+      en: 'SweetK.',
+      kr: '스위트케이',
+      info: '개발1팀',
       link: '',
     },
     {
       category: 'Activity',
-      date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
+      date: '2024.06.01 - ING',
+      en: 'Pulse',
+      kr: '펄스',
+      info: '팀 프로젝트',
+      link: '',
+    },
+    {
+      category: 'Activity',
+      date: '2023.05.01 - 2024.02.01',
+      en: 'recipia',
+      kr: '레시피아',
+      info: '팀 프로젝트',
       link: '',
     },
   ],

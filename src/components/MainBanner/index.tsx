@@ -20,14 +20,14 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
     <S.Wrapper>
       <S.IntroWrapper>
         <S.Title>
-          안녕하세요!
+          안녕하세요! 저는
           <br />
           <strong>
             <ReactRotatingText items={stack} />
           </strong>
           <span>를 좋아하는</span>
           <br />
-          개발자{' '}
+          백엔드 개발자{' '}
           <strong>
             <ReactRotatingText items={[name, nickname]} />
           </strong>

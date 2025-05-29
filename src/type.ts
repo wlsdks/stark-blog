@@ -55,7 +55,7 @@ export type Bio = {
 export type Social = {
   github: string;
   linkedIn: string;
-  resume: string;
+  notion: string;
 };
 
 export type Post = {
